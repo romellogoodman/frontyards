@@ -42,6 +42,26 @@ html, body {
   margin-top: 1.5em;
 }
 
+.cta {
+  margin-top: 1.5em;
+}
+
+.letter .button {
+  display: inline-block;
+  padding: 0.55em 1.1em;
+  border: 1px solid #111;
+  border-radius: 999px;
+  color: #111;
+  text-decoration: none;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.letter .button:hover,
+.letter .button:focus-visible {
+  background: #111;
+  color: #b0afed;
+}
+
 /* Photo — bottom right */
 .frame {
   position: fixed;
