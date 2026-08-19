@@ -95,12 +95,11 @@ html, body {
 }
 
 .caption a {
-  color: rgba(0, 0, 0, 0.55);
+  color: #111;
   text-decoration: none;
 }
 
 .caption a:hover {
-  color: #000;
   text-decoration: underline;
 }
 
