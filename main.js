@@ -32,7 +32,6 @@ async function showRandomImage() {
   const title = block.title || 'Untitled';
 
   photo.alt = title;
-  link.href = `https://www.are.na/block/${block.id}`;
   link.textContent = `${title} ↗ are.na`;
 
   photo.addEventListener('load', () => frame.classList.add('is-visible'), { once: true });
