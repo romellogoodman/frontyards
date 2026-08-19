@@ -38,23 +38,11 @@ html, body {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.signature {
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1.5em;
   margin-top: 1.5em;
-}
-
-.cta {
-  margin-top: 1.5em;
-}
-
-.letter .button {
-  color: #111;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.letter .button:hover,
-.letter .button:focus-visible {
-  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Photo — bottom right */
