@@ -20,7 +20,7 @@ python3 -m http.server 8000
 ## Layout
 
 ```
-index.html      markup
-css/style.css   positioning + fade-in
-js/main.js      fetch channel → pick a random image block → set <img src>
+index.html   markup
+style.css    layout + fade-in
+main.js      fetch channel → pick a random image block → set <img src>
 ```
